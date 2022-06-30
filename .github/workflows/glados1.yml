@@ -1,4 +1,4 @@
-name: glados
+name: glados1
 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -22,5 +22,5 @@ jobs:
           pip3 install -r ./glados/requirements.txt
       - name: Run checkin
         run: |
-          python3 ./glados/glados.py '${{ secrets.GLADOS_COOKIE }}'
+          python3 ./glados/glados.py '${{ secrets.GLADOS_COOKIE1 }}'
       - uses: gautamkrishnar/keepalive-workflow@master  
