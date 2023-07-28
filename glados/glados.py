@@ -27,7 +27,7 @@ def glados_checkin(driver):
         var request = new XMLHttpRequest();
         request.open("POST","%s",false);
         request.setRequestHeader('content-type', 'application/json');
-        request.send('{"token": "glados.network"}');
+        request.send('{"token": "glados.one"}');
         return request;
         })();
         """ % (checkin_url)
